@@ -30,7 +30,7 @@ getaddrinfo() 函数能够处理名字到地址以及服务到端口这两种转
 
 该标志的作用就是阻止进行域名解析。
 
-nodename 和 servname 可以设置为NULL，但是同时只能有一个为NUL。
+nodename 和 servname 可以设置为NULL，但是同时只能有一个为NULL。
 
 ## 2) servname
 服务名可以是十进制的端口号("8080")字符串，也可以是已定义的服务名称，如"ftp"、"http"等,详细请查看/etc/services 文件，
